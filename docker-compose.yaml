@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  convert-dist:
+    image: giancarloh/conversao-distancia:v1
+    ports:
+     - 80:80
